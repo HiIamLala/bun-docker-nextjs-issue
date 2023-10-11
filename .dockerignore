@@ -1,0 +1,25 @@
+# Versioning and metadata
+# .git
+# .gitignore
+.dockerignore
+.husky
+
+# Build dependencies
+dist
+node_modules
+coverage
+.next
+
+# Environment (contains sensitive data)
+.env
+
+# Files not required for production
+.editorconfig
+.vscode
+Dockerfile
+README.md
+tslint.json
+nodemon.json
+
+# yarn.lock will be generate from bun.lockb
+yarn.lock
